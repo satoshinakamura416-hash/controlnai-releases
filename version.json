@@ -1,7 +1,7 @@
 {
-  "version": "1.0.3",
-  "downloadUrl": "https://github.com/satoshinakamura416-hash/controlnai-releases/releases/download/v1.0.3/Control-NAI-Monitor-1.0.3.zip",
-  "releasedAt": "2026-05-05T19:50:00+09:00",
-  "notes": "緊急: 「更新する」ボタンが動かないバグ修正 (v1.0.2 まで) / 葬儀札V2 / CTI Shift_JIS修正 / AIアシスタント ハルシネーション防止",
+  "version": "1.0.4",
+  "downloadUrl": "https://github.com/satoshinakamura416-hash/controlnai-releases/releases/download/v1.0.4/Control-NAI-Monitor-1.0.4.zip",
+  "releasedAt": "2026-05-11T11:50:00+09:00",
+  "notes": "/XF データ消失バグ修正 / 自動バックアップ(ローカル+Drive) / ヘッダにバージョン表示 / 葬儀札V2 バグ修正 / CTI コピーボタン HTTP対応",
   "minVersion": "1.0.0"
 }
