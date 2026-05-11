@@ -1,4 +1,4 @@
-# Control-N'AI Auto Updater
+﻿# Control-N'AI Auto Updater
 # Spawned by app.js when user clicks 「更新を適用」
 # Steps:
 #   1. Wait briefly for HTTP response to settle
