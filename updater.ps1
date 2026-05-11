@@ -149,15 +149,18 @@ try {
 
     # 6.5 Updater 自身を強制更新（tools/ は Preserve なので /XF の対象だが、
     #     updater.ps1 の進化を共創店に届けるため明示的に上書き）
-    $newUpdater = Join-Path $extractDir 'tools\updater.ps1'
-    $dstUpdater = Join-Path $InstallDir 'tools\updater.ps1'
-    if (Test-Path $newUpdater) {
-        try {
-            Copy-Item $newUpdater $dstUpdater -Force -ErrorAction Stop
-            Log '  updater.ps1 を最新版に更新しました'
-        } catch {
-            Log "  updater.ps1 更新スキップ: $($_.Exception.Message)"
+    # 非致命ステップなので全体を try/catch で保護（パス計算失敗等で update 全体を倒さない）
+    try {
+        if ($extractDir -and $InstallDir) {
+            $newUpdater = Join-Path $extractDir 'tools\updater.ps1'
+            $dstUpdater = Join-Path $InstallDir 'tools\updater.ps1'
+            if ((Test-Path $newUpdater) -and (Test-Path (Split-Path $dstUpdater))) {
+                Copy-Item $newUpdater $dstUpdater -Force -ErrorAction Stop
+                Log '  updater.ps1 を最新版に更新しました'
+            }
         }
+    } catch {
+        Log "  updater.ps1 自己更新スキップ (非致命): $($_.Exception.Message)"
     }
 
     # 7. Start service
