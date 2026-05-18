@@ -1,7 +1,7 @@
 {
-  "version": "1.0.4",
-  "downloadUrl": "https://github.com/satoshinakamura416-hash/controlnai-releases/releases/download/v1.0.4/Control-NAI-Monitor-1.0.4.zip",
-  "releasedAt": "2026-05-11T11:50:00+09:00",
-  "notes": "/XF データ消失バグ修正 / 自動バックアップ(ローカル+Drive) / ヘッダにバージョン表示 / 葬儀札V2 バグ修正 / CTI コピーボタン HTTP対応",
-  "minVersion": "1.0.0"
+  "version": "1.0.5",
+  "downloadUrl": "https://github.com/satoshinakamura416-hash/controlnai-releases/releases/download/v1.0.5/Control-NAI-Monitor-1.0.5.zip",
+  "releasedAt": "2026-05-18T13:30:00+09:00",
+  "notes": "FAX発注表 大幅機能追加（QR切替/単価編集/複数伝票まとめ/発注先・請求先セクション/FAX飛び対策の枠線化）/ 振込名義の会社名抽出ロジック改善（中間にある法人格も検出）/ 札名表示の自動キーワード分割を解除（1行＝1送り主原則の徹底）/ メッセージカード横置きを12pt統一・編集パネル追加・レイアウト刷新 / 目録印刷の位置調整デフォルト変更",
+  "minVersion": "1.0.3"
 }
