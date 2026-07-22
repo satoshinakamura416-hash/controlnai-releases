@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "downloadUrl": "https://github.com/satoshinakamura416-hash/controlnai-releases/releases/download/v1.1.0/Control-NAI-Monitor-1.1.0.zip",
-  "releasedAt": "2026-07-22T15:00:00+09:00",
-  "notes": "自動アップデート機能の動作確認用リリース。ヘッダーのバージョン表示が v1.1.0 に更新されます。データベース・設定・写真・.env はすべて保持されます。",
+  "version": "1.1.1",
+  "downloadUrl": "https://github.com/satoshinakamura416-hash/controlnai-releases/releases/download/v1.1.1/Control-NAI-Monitor-1.1.1.zip",
+  "releasedAt": "2026-07-22T21:30:00+09:00",
+  "notes": "設定画面から各店が自分のAPIキー・OCRエンジン・Googleドライブ保存先を設定できるようになりました（OCRエンジン選択：Gemini/Claude、Google Driveセルフ連携）。データベース・設定・写真・.env はすべて保持されます。",
   "minVersion": "1.0.3"
 }
