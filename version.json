@@ -1,7 +1,7 @@
 {
-  "version": "1.0.6",
-  "downloadUrl": "https://github.com/satoshinakamura416-hash/controlnai-releases/releases/download/v1.0.6/Control-NAI-Monitor-1.0.6.zip",
-  "releasedAt": "2026-05-31T09:00:00+09:00",
-  "notes": "祝/供札V2・葬儀札V2の連名レイアウト刷新（社名＋肩書↑名前、下端・横いっぱいに展開、字間/サイズ調整、社名の半角/全角スペースで間隔調整）/ 即時請求書の改善（商品写真は『請求書用』チェック必須化＝誤送付防止・写真ON/OFFトグル・宛名を社名＋担当者に・メール添付PDFをA4必ず1ページに）/ ダッシュボード本日の伝票に配達区分の色分け（外注/来店/お届け/発送）/ 作業伝票にレターヘッド追加＋明細が多い時の自動圧縮（合計切れ防止）/ 外注発注のステータス手動編集＋変更履歴ログ / QR配達完了報告の拡張 / 新規顧客モーダルに住所→郵便番号の自動補完 / 注文主をワンクリックで顧客登録 / 伝票検索の状態保持＋前後レコードナビ / V1名札のドラッグ移動・伸縮 / 暗号化PDF（PayPay銀行等）の表示対応 / 目録印刷の改善",
+  "version": "1.1.0",
+  "downloadUrl": "https://github.com/satoshinakamura416-hash/controlnai-releases/releases/download/v1.1.0/Control-NAI-Monitor-1.1.0.zip",
+  "releasedAt": "2026-07-22T15:00:00+09:00",
+  "notes": "自動アップデート機能の動作確認用リリース。ヘッダーのバージョン表示が v1.1.0 に更新されます。データベース・設定・写真・.env はすべて保持されます。",
   "minVersion": "1.0.3"
 }
