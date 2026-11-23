@@ -1,8 +1,0 @@
-{
-    "version":  "1.2.18",
-    "downloadUrl":  "https://github.com/satoshinakamura416-hash/controlnai-releases/releases/download/sale-test-1.2.18/Control-NAI-Update-1.2.18-test.zip",
-    "sha256":  "bcf0a739c6780fbcba4e44b044abc7cb2a4e34ba2fedeee1b86cafb282efcbb9",
-    "releasedAt":  "2026-11-23T08:51:50+09:00",
-    "notes":  "試験用（更新ボタンの通し試験）",
-    "minVersion":  "1.2.17"
-}
