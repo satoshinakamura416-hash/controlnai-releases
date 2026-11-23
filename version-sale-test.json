@@ -1,8 +1,8 @@
 {
-    "version":  "1.2.16",
-    "downloadUrl":  "https://github.com/satoshinakamura416-hash/controlnai-releases/releases/download/sale-v1.2.16/Control-NAI-Update-1.2.16.zip",
-    "sha256":  "1c40aa2709b1cad8cf0a61dabc9cfda1700a0b13c34db008e02f4f0814db7446",
-    "releasedAt":  "2026-11-22T19:05:37+09:00",
-    "notes":  "設定ウィザードに写真加工とInstagram投稿の手順書、メモにExcelの表を貼り付け、メッセージカードの宛名欄を拡大",
-    "minVersion":  "1.2.15"
+    "version":  "1.2.18",
+    "downloadUrl":  "https://github.com/satoshinakamura416-hash/controlnai-releases/releases/download/sale-test-1.2.18/Control-NAI-Update-1.2.18-test.zip",
+    "sha256":  "bcf0a739c6780fbcba4e44b044abc7cb2a4e34ba2fedeee1b86cafb282efcbb9",
+    "releasedAt":  "2026-11-23T08:51:50+09:00",
+    "notes":  "試験用（更新ボタンの通し試験）",
+    "minVersion":  "1.2.17"
 }
